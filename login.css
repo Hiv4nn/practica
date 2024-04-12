@@ -1,0 +1,77 @@
+@font-face{
+    font-family: let2;
+    src: url('todo/fuentes/title2.otf');
+}
+@font-face {
+    font-family: let4 ;
+    src: url("todo/fuentes/Betterlett.ttf");
+}
+@font-face {
+    font-family: let6;
+    src: url("todo/fuentes/fabella-flower.ttf");
+} 
+@font-face {
+    font-family: let7;
+    src: url("todo/fuentes/jully\ julia.ttf");
+}
+
+body{
+   background-image: url("todo/imagens/fondolog.jpg");
+}
+
+.login-container {
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    margin-top: 25%;
+    margin-left: 18%;
+    background-color: #f6fa080a;
+    border-radius: 30px;
+    box-shadow: 0 0 100px rgba(6, 19, 4, 0.377);    
+}
+h1 {
+    font-family: let7;
+    font-size: 80px;
+    text-align: center;
+    margin: 0%;
+    padding-bottom: 15px;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-family: let4;
+    font-size: 50px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #e5f50a;
+    border-radius: 3px;
+    
+}
+
+button {
+    font-family: let4;
+    font-size: 50px;
+    margin: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #550855;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#frase h2{ 
+    text-align: center;
+    font-family: let7;
+    color: #dfe771;
+    
+}
+#frase{
+    background-color:#55085583;
+    margin-top: 95%;
+    font-size: 35px;
+}
