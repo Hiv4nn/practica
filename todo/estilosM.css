@@ -1,0 +1,143 @@
+@font-face{
+    font-family: let2;
+    src: url('fuentes/title2.otf');
+}
+@font-face {
+    font-family: let4 ;
+    src: url("fuentes/Betterlett.ttf");
+}
+@font-face {
+    font-family: let6;
+    src: url("fuentes/fabella-flower.ttf");
+} 
+@font-face {
+    font-family: let7;
+    src: url("fuentes/jully\ julia.ttf");
+}
+@font-face{
+    font-family: chopin;
+    src: url("fuentes/chopin_script/ChopinScript.otf");
+}
+@font-face{
+    font-family: good_day;
+    src: url("fuentes/good_day_3/Good\ Day.otf");
+}
+@font-face{
+    font-family: hello;
+    src: url("fuentes/hello/Hello.ttf");
+
+}
+@font-face{
+    font-family: milky;
+    src: url("fuentes/milky_again/Milky\ Again.ttf");
+}
+@font-face{
+    font-family: world;
+    src: url("fuentes/world_discovery/WorldDiscovery_PERSONAL_USE_ONLY.otf");
+}
+@font-face {
+    font-family: maquina;
+    src: url("fuentes/maquina.ttf");
+}
+@font-face {
+    font-family: happy;
+    src: url("fuentes/HappyTime.otf");
+}
+body{
+    background-image: url("musica/net.jpg");
+    background-size: 100%;
+}
+#cajeta{
+    margin-top: 200px;
+    margin-left: 60px;
+}
+#box{
+    display: flex;
+    overflow-x: scroll ;
+    padding: 24px;
+    width: 800px;
+    height: 1000px;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 14px ;
+    border-radius: 10px;
+    gap: 30px;
+    background-color:rgba(255, 255, 255, 0.189);
+    box-shadow:0px 0px 50px white
+    
+}
+#bott{
+    width: 20px;
+}
+.play{
+        width: 80px;
+        height: 50px;
+        margin: 20px auto;
+        font-size: 24px;
+        padding: 10px 20px;
+}
+.barra {
+    width: calc(100% - 70px); /* Se resta 70px para dejar espacio al texto de tiempo */
+    height: 30px; /* Ajusta el grosor de la barra de reproducción */
+    border-radius: 15px; /* Ajusta el radio de los bordes para que se vea redondeado */
+}
+
+.min {
+    display: inline-block;
+    width: 220px;
+    font-size: 40px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.musicas{
+    flex: 0 0 100%;
+    padding: 10px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    text-align: center;
+}
+
+.musicas h2{
+    font-family: let4;
+    font-size: 80px;
+}
+.musicas p{
+    background-color: rgba(61, 228, 228, 0.498);
+    border-radius: 10px;
+    font-size: 40px;
+    font-family: happy;
+}
+
+#v1{
+    background-color: aquamarine;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    
+}
+#v2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+#v2 h2 {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#v2 p {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#v2 audio{
+    width: 100%;
+    outline: none;
+}

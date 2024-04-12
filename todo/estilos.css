@@ -1,0 +1,203 @@
+@font-face{
+    font-family: let2;
+    src: url('fuentes/title2.otf');
+}
+@font-face {
+    font-family: let4 ;
+    src: url("fuentes/Betterlett.ttf");
+}
+@font-face {
+    font-family: let6;
+    src: url("fuentes/fabella-flower.ttf");
+} 
+@font-face {
+    font-family: let7;
+    src: url("fuentes/jully\ julia.ttf");
+}
+@font-face{
+    font-family: chopin;
+    src: url("fuentes/chopin_script/ChopinScript.otf");
+}
+@font-face{
+    font-family: good_day;
+    src: url("fuentes/good_day_3/Good\ Day.otf");
+}
+@font-face{
+    font-family: hello;
+    src: url("fuentes/hello/Hello.ttf");
+
+}
+@font-face{
+    font-family: milky;
+    src: url("fuentes/milky_again/Milky\ Again.ttf");
+}
+@font-face{
+    font-family: world;
+    src: url("fuentes/world_discovery/WorldDiscovery_PERSONAL_USE_ONLY.otf");
+}
+body{
+   background-color: #ee9dcf;
+   background-image: url("imagens/heart-png.webp" );
+   background-size: 320px;
+   background-attachment:fixed;
+}
+.principal{
+    background-color: #a94eddce;
+    position: relative;
+    height: 210px;
+}
+.principal h1{
+    font-size: 100px;
+    margin: auto;
+    text-align: center;
+    width: 450px;
+    font-family: let2;
+}
+.mensaje p{
+    font-size: 30px;
+}
+.mensaje{
+    background-color: rgba(238, 101, 229, 0.63);
+    margin: auto;
+    position: absolute;
+    font-family: let4;
+    border-radius: 30px;
+    box-shadow: black 5px;
+}
+#der{
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 10px;    
+}
+#izq{
+    text-align: center;
+    width: 300px;
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 670px;
+}
+#bar{
+    margin: auto;
+    background-color: #640540;
+    transition: background-color 0.3s ease;
+    font-size: 40px;
+    margin-top: -30px;
+    border-radius: 15px;
+    width: 950px;
+    position: sticky;
+    top: 0;
+
+    
+}
+
+ul{
+    position: relative;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: world;
+    color:black  ;
+}
+.contenedores{
+    background-color:   #d32ec5b7;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    border-style: solid;
+    border-color:#640540;
+    border-width: 5px;
+}
+.texto{
+    font-size: 40px;
+    font-family: world;
+    background-color: #8b0eaa;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+.fond{
+    background-color: #fff0c9bd;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 10px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    border-width: 10px;
+    border-style:ridge; 
+    border-color:#640540;
+    border-radius: 50px;
+}
+#arch1{
+    text-align: center;
+}
+#arch1 video{
+    border-radius: 90px;
+    width: 300px;
+}
+#arch2{
+    text-align: center;
+}
+#arch2 video{
+    border-radius: 90px;
+    width: 300px;
+}
+#arch2v{
+    text-align: center;
+}
+#arch2v video{
+    border-radius: 90px;
+    width: 300px;
+}
+#arch3{
+    text-align: center;
+}
+#arch3 video{
+    border-radius: 90px;
+    width: 300px;
+}
+.items{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    overflow-x: scroll ;
+    white-space: nowrap;
+    background-color: #640540;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.galleria p{
+    background-color: #640540;
+    margin-right: 390px;
+    margin-left: 390px;
+    margin-bottom: 10px;
+    margin-top:10px ;
+    text-align: center;
+    font-size: 60px;
+    font-family: milky;
+    border-radius: 15px;
+}
+.gall{
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    margin-right: 30px;   
+}
+footer{
+    background-color: rgba(250, 235, 215, 0.808);
+    font-size: 50px;
+    font-family: chopin;
+    text-align: center;
+}

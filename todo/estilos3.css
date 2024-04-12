@@ -1,0 +1,119 @@
+@font-face{
+    font-family: let2;
+    src: url('fuentes/title2.otf');
+}
+@font-face {
+    font-family: let4 ;
+    src: url("fuentes/Betterlett.ttf");
+}
+@font-face {
+    font-family: let6;
+    src: url("fuentes/fabella-flower.ttf");
+} 
+@font-face {
+    font-family: let7;
+    src: url("fuentes/jully\ julia.ttf");
+}
+@font-face{
+    font-family: chopin;
+    src: url("fuentes/chopin_script/ChopinScript.otf");
+}
+@font-face{
+    font-family: good_day;
+    src: url("fuentes/good_day_3/Good\ Day.otf");
+}
+@font-face{
+    font-family: hello;
+    src: url("fuentes/hello/Hello.ttf");
+
+}
+@font-face{
+    font-family: milky;
+    src: url("fuentes/milky_again/Milky\ Again.ttf");
+}
+@font-face{
+    font-family: world;
+    src: url("fuentes/world_discovery/WorldDiscovery_PERSONAL_USE_ONLY.otf");
+}
+@font-face {
+    font-family: maquina;
+    src: url("fuentes/maquina.ttf");
+}
+@font-face {
+    font-family: happy;
+    src: url("fuentes/HappyTime.otf");
+}
+
+body{
+    background-image: url("musica/back.jpg");
+    background-size: 50%;
+}
+.principal{
+    background-color: #957698b2;
+    position: relative;
+    height: 190px ;
+    border-radius: 10px;
+    margin: 20px;
+}
+.principal h1{
+    font-size: 80px;
+    margin: auto;
+    text-align: center;
+    width: 900px;
+    font-family: let2;
+}
+#bar{
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #a080a3b3;
+    transition: background-color 0.3s ease;
+    font-size: 35px;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;  
+    text-align: center;
+      
+}
+.barra{
+    background-color: #5d1372;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+ul{
+    position: relative;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: world;
+    color:black  ;
+}
+#caja{
+    background-color: #aa8badb0;
+    margin: 20px;
+    border-radius: 15px;
+}
+#caja p{
+    font-size: 30px;
+    font-family:maquina;
+    padding: 20px;
+}
+
+#box{
+    overflow-x: scroll ;
+    white-space: nowrap;
+    background-color: #640540;
+}
+.musicas{
+    
+    background-color: antiquewhite;
+    display: inline-block;
+    width: 50%;
+}
