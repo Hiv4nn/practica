@@ -62,33 +62,8 @@ body{
     border-radius: 10px;
     gap: 30px;
     background-color:rgba(255, 255, 255, 0.189);
-    box-shadow:0px 0px 50px white
-    
+    box-shadow:0px 0px 50px white   
 }
-#bott{
-    width: 20px;
-}
-.play{
-        width: 80px;
-        height: 50px;
-        margin: 20px auto;
-        font-size: 24px;
-        padding: 10px 20px;
-}
-.barra {
-    width: calc(100% - 70px); /* Se resta 70px para dejar espacio al texto de tiempo */
-    height: 30px; /* Ajusta el grosor de la barra de reproducción */
-    border-radius: 15px; /* Ajusta el radio de los bordes para que se vea redondeado */
-}
-
-.min {
-    display: inline-block;
-    width: 220px;
-    font-size: 40px;
-    margin-left: 10px;
-    text-align: center;
-}
-
 .musicas{
     flex: 0 0 100%;
     padding: 10px;
