@@ -111,9 +111,11 @@ a{
     white-space: nowrap;
     background-color: #640540;
 }
-.musicas{
-    
-    background-color: antiquewhite;
-    display: inline-block;
-    width: 50%;
+
+#play{
+    margin-top: 150px;
+    text-align: center;
+}
+#play img{
+    width: 30%;
 }
