@@ -9,9 +9,6 @@
         <link rel="stylesheet"  type="text/css"   href="login.css">
     </head>
     <body>
-        <audio autoplay loop>
-            <source src="todo/inicio.mp3" type="mp3">
-        </audio>
         <div class="login-container">
             <h1>Iniciar sesión</h1>
             <input type="text" id="username" placeholder="Usuario">
@@ -22,5 +19,14 @@
        <div id="frase">
         <h2>"Somos Tu y Yo Para Siempre"</h2>
        </div>
+        <audio id="music" autoplay loop  >
+        <source src="todo/musica/inicio.mp3" type="audio/mp3">
+      </audio>
+      <script>
+        function PlayAudio() {
+            document.getElementById("music").play();
+        }
+      </script>
+        
     </body>
 </html>
